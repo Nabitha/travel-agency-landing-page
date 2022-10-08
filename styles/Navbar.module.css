@@ -1,0 +1,44 @@
+.navbar {
+  background-color: lightgoldenrodyellow;
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+.ul {
+  display: flex;
+
+  gap: 15%;
+  align-items: center;
+}
+ul .li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.logocontainer {
+  margin-left: -27%;
+  margin-top: 12px;
+}
+.login-btn {
+  border: none;
+  color: black;
+  font-weight: 800;
+  background-color: lightgoldenrodyellow;
+}
+.signin-btn {
+  color: black;
+  font-weight: 800;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  border: 1px solid black;
+}
+.more-btn {
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 3px 5px 13px goldenrod;
+}

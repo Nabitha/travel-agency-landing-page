@@ -1,0 +1,24 @@
+.cardcontainer {
+  border: 1px solid white;
+  height: 220px;
+  transition: 1s;
+}
+.cardcontainer:hover {
+  border: 1px solid grey;
+  border-radius: 15px;
+  transform: scale(1.05);
+  box-shadow: 3px 5px 13px grey;
+}
+.cardtitle {
+  font-size: 17px;
+  text-align: center;
+}
+.cardpara {
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+}
+.cardimgcontainer {
+  display: flex;
+  justify-content: center;
+}
